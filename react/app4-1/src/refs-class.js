@@ -17,7 +17,7 @@ export default class RefsClass extends React.Component {
 
     render() {
         return (
-            <div style={{ textAlign: "center", marginTop: "20px", fontSize: "20px", borderBottom: '2px solid black', paddingBottom: '20px' }}>
+            <div style={{ textAlign: "center", marginTop: "20px", borderBottom: '2px solid black', paddingBottom: '20px' }}>
                 <h1 style={{ textAlign: "center", marginTop: "20px", borderBottom: '2px solid black', paddingBottom: '20px' }} >App4-1</h1>
                 <h2>Refs Class</h2>
                 <div>
