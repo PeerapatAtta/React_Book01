@@ -4,6 +4,7 @@ import Router1 from './router1';
 import Router2 from './router2';
 import Router3 from './router3';
 import Router4 from './router4';
+import Router5 from './router5';
 
 export default function App() {
   return (
@@ -12,6 +13,7 @@ export default function App() {
       <Router2/>
       <Router3/>
       <Router4/>
+      <Router5/>
     </>
   );
 }
