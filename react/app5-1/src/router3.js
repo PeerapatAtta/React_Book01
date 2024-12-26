@@ -5,14 +5,14 @@ import Products from './products';
 
 export default function Router3() {
     return (
-        <BrowserRouter>
+        <BrowserRouter >
             <nav className='nav'>
                 <NavLink to="/" className={({ isActive }) => isActive ? 'menu active_menu' : 'menu'}>Home</NavLink> -&nbsp;
                 <NavLink to="/products" className={({ isActive }) => isActive ? 'menu active_menu' : 'menu'}>Product</NavLink> -&nbsp;
                 <NavLink to="/member" className={({ isActive }) => isActive ? 'menu active_menu' : 'menu'} >Member</NavLink> -&nbsp;
                 <NavLink to="/contact" className={({ isActive }) => isActive ? 'menu active_menu' : 'menu'}>Contact</NavLink> -&nbsp;
             </nav>
-            <div style={{ margin: '20px', textAlign: 'center' }}>
+            <div style={{ margin: '20px', textAlign: 'center', borderBottom: '2px solid black', paddingBottom: '20px' }}>
                 <Routes>
                     <Route
                         path="/"
